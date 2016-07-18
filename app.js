@@ -1,8 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 const port = 2000,
-	app = express(),
-	router = express.Router();
+	app = express();
 app.use(bodyParser.urlencoded({
 	extended : 1
 }));
